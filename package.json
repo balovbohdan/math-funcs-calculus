@@ -1,0 +1,50 @@
+{
+  "_from": "math-funcs-calculus@^1.0.2",
+  "_id": "math-funcs-calculus@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-LHzvx6eNxdj9+8x772/cINBMeWUzVpBtehEj0QBAd2qJ4SckpjlvkDxzB0jQqSqc59b89J7RxaCoHpg0Ic2wsw==",
+  "_location": "/math-funcs-calculus",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "math-funcs-calculus@^1.0.2",
+    "name": "math-funcs-calculus",
+    "escapedName": "math-funcs-calculus",
+    "rawSpec": "^1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/math-funcs-calculus/-/math-funcs-calculus-1.0.2.tgz",
+  "_shasum": "33d67b6eb657d7d103921963801326877454d57f",
+  "_spec": "math-funcs-calculus@^1.0.2",
+  "_where": "C:\\Users\\Bohdan_Balov\\WebstormProjects\\ann-in-progress",
+  "author": {
+    "name": "balov_bohdan"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Library of math functions for TypeScript.",
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/node": "^10.11.4",
+    "tslint": "^5.11.0"
+  },
+  "keywords": [
+    "math",
+    "functions",
+    "calculus",
+    "typescript"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "name": "math-funcs-calculus",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "version": "1.0.2"
+}
