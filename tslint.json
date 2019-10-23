@@ -4,6 +4,12 @@
     "no-require-imports": true,
     "quotemark": [true, "single"],
     "semicolon": [true, "always", "ignore-interfaces", "ignore-bound-class-methods"],
+    "max-line-length": [true, {
+      "limit": 120,
+      "check-regex": true,
+      "check-strings": true,
+      "ignore-pattern": "^import |^export {(.*?)}"
+    }],
     "trailing-comma": [true, {
       "singleline": "never",
       "esSpecCompliant": true,
@@ -13,6 +19,9 @@
         "functions": "never",
         "typeLiterals": "ignore"
       }
-    }]
+    }],
+    "linterOptions": {
+      "exclude": ["dist"]
+    }
   }
 }

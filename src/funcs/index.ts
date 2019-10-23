@@ -1,3 +1,4 @@
+export { ReLU } from './ReLU';
 export { Func } from './types';
 export { Logistic } from './Logistic';
 export { Areasinus } from './Areasinus';

@@ -1,5 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var ReLU_1 = require("./ReLU");
+exports.ReLU = ReLU_1.ReLU;
 var Logistic_1 = require("./Logistic");
 exports.Logistic = Logistic_1.Logistic;
 var Areasinus_1 = require("./Areasinus");
